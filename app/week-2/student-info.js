@@ -4,7 +4,7 @@ function StudentInfo() {
   return (
     <main>
       <h1>Name: Dat Do-Nguyen</h1>
-      <Link href="https://github.com/datdo13a/cprg306-assignments" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-blue-400 ">My GitHub!</Link>
+      <Link href="https://github.com/datdo13a/cprg306-assignments" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-blue-400 ">https://github.com/datdo13a/cprg306-assignments</Link>
     </main>
   );
 }
