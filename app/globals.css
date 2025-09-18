@@ -1,1 +1,29 @@
 @import "tailwindcss";
+
+        #chat-bubble {
+            position: relative;
+            background: lightgreen;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #chat-bubble::after {
+            content: "";
+            position: absolute;
+            left: 10px;
+            transform: rotate(20deg);
+            top: 115px;
+            width: 0;
+            height: 0;
+            border-top: 125px solid lightgreen;
+            border-right: 125px solid transparent;
+            z-index: -1;
+
+            #chat-bubble p {
+                z-index: 1;
+            }
+        }
