@@ -8,7 +8,7 @@ function HomePage() {
       <ul>
         <li><Link href="/week-2" className="hover:text-blue-400 hover:underline">Week 2: Student Info</Link></li>
         <li><Link href="/week-3" className="hover:text-blue-400 hover:underline">Week 3: Item List</Link></li>
-        <li><Link href="/week-4" className="hover:text-blue-400 hover:underline">Week 4:</Link></li>
+        <li><Link href="/week-4" className="hover:text-blue-400 hover:underline">Week 4: New Item</Link></li>
       </ul>
     </div>
   )
