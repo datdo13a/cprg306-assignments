@@ -24,7 +24,7 @@ const buttonStyles = (colour) => {
         green: 'bg-green-200 hover:bg-green-300 active:bg-green-400'
     };
     
-    return `m-5 p-5 h-16 rounded-xl shadow-sm font-bold cursor-pointer disabled:bg-gray-300 disabled:cursor-not-allowed ${colourClasses[colour]}`;
+    return `"m-5 p-5 h-16 rounded-xl shadow-sm font-bold cursor-pointer disabled:bg-gray-300 disabled:cursor-not-allowed ${colourClasses[colour]}"`;
 };
 
 return (
